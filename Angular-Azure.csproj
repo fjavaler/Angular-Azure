@@ -26,10 +26,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\auth.guard.ts" />
     <None Remove="ClientApp\src\app\fetch-data\fetchdata.component.spec.ts" />
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\app\auth.guard.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\fetch-data\fetchdata.component.spec.ts" />
   </ItemGroup>
 
